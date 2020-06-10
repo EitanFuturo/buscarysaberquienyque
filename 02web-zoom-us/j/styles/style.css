@@ -1,0 +1,33 @@
+@import url('./normalize.css');
+@import url('./media-queries.css');
+
+:root {
+  font-size: 16px; 
+}
+
+h1  {
+  font-size: 3rem;
+  align-self: center;
+  padding: 1rem 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+li {
+  padding: .5rem 0;
+}
