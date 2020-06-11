@@ -1,19 +1,24 @@
 @import url('./normalize.css');
 @import url('./media-queries.css');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 :root {
   font-size: 16px; 
+  font-family: 'Lora', serif;
 }
 
 h1  {
   font-size: 3rem;
   align-self: center;
-  padding: 1rem 0;
+  padding: 5rem 0;
+  color: white;
+  text-transform: uppercase;
 }
 
 body {
   display: flex;
   justify-content: center;
+  background-color: #1a1819;
 }
 
 main {
