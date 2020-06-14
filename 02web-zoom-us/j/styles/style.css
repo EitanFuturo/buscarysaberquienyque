@@ -5,34 +5,55 @@
 :root {
   font-size: 16px; 
   font-family: 'Lora', serif;
+  color: white;
+  line-height: 24px;
 }
 
 h1  {
-  font-size: 3rem;
+  font-size: 2rem;
   align-self: center;
-  padding: 5rem 0;
-  color: white;
+  padding: 2rem 1rem;
   text-transform: uppercase;
 }
 
 body {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #1a1819;
+  flex-direction: column;
 }
 
 main {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
 ul {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
 li {
-  padding: .5rem 0;
+  padding: 1rem 1rem;
+}
+
+h2 {
+  padding: 1rem 0;
+}
+
+footer {
+  padding: 1rem;
+}
+
+.logo {
+  border-radius: 50%;
+}
+
+p {
+  max-width: 700px;
 }
